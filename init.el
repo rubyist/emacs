@@ -7,3 +7,4 @@
 (load "00common-setup.el")
 (load "01auto-complete.el")
 (load "02go.el")
+(load "03smartparens.el")
