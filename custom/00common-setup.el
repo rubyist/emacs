@@ -67,3 +67,5 @@
 (set-face-attribute 'mode-line nil
                     :background "#7FFFD5"
                     :box nil)
+
+(setq ring-bell-function 'ignore)
