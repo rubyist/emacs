@@ -64,3 +64,6 @@
 
 (color-theme-initialize)
 (color-theme-charcoal-black)
+(set-face-attribute 'mode-line nil
+                    :background "#7FFFD5"
+                    :box nil)
