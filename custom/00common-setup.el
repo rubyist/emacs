@@ -9,7 +9,7 @@
 (prefer-coding-system 'utf-8)
 
 (set-frame-font "-apple-Fira_Mono-medium-normal-normal-*-*-*-*-*-m-0-iso10646-1")
-(set-face-attribute 'default nil :height 160)
+(set-face-attribute 'default nil :height 180)
 
 (setq-default truncate-lines nil)
 (setq-default indent-tabs-mode nil)
