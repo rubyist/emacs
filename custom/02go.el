@@ -8,5 +8,8 @@
 
 (require 'go-autocomplete)
 (require 'auto-complete-config)
-
+(require 'go-errcheck)
 (add-to-list 'yas-snippet-dirs "~/.emacs.d/vendor/yasnippet-go/go-mode")
+
+(add-hook 'go-mode-hook (lambda ()
+                          (local-set-key (kbd "C-c C-r") 'go-remove-unused-imports)))
