@@ -52,3 +52,4 @@
 
 (add-hook 'compilation-filter-hook 'colorize-compilation-buffer)
 
+(yas-global-mode)

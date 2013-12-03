@@ -8,3 +8,5 @@
 
 (require 'go-autocomplete)
 (require 'auto-complete-config)
+
+(add-to-list 'yas-snippet-dirs "~/.emacs.d/vendor/yasnippet-go/go-mode")
