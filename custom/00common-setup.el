@@ -9,6 +9,7 @@
 (prefer-coding-system 'utf-8)
 
 (set-frame-font "-apple-Fira_Mono-medium-normal-normal-*-*-*-*-*-m-0-iso10646-1")
+(set-face-attribute 'default nil :height 160)
 
 (setq-default truncate-lines nil)
 (setq-default indent-tabs-mode nil)
@@ -55,3 +56,9 @@
 (add-to-list 'load-path "~/.emacs.d/vendor/yasnippet")
 (require 'yasnippet)
 (yas-global-mode 1)
+
+(tool-bar-mode 0)
+
+(add-to-list 'load-path "~/.emacs.d/vendor/emacs-powerline")
+(require 'powerline)
+
