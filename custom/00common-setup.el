@@ -62,3 +62,5 @@
 (add-to-list 'load-path "~/.emacs.d/vendor/emacs-powerline")
 (require 'powerline)
 
+(color-theme-initialize)
+(color-theme-charcoal-black)
