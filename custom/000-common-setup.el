@@ -70,4 +70,3 @@
 
 (setq ring-bell-function 'ignore)
 (linum-mode)
-
