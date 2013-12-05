@@ -29,7 +29,7 @@
 
 (global-visual-line-mode 1)
 
-(setq x-select-enable-clipboard t)
+(setq x-select-enable-clipboard nil)
 
 (global-set-key "\C-w" 'backward-kill-word)
 (global-set-key "\C-x\C-k" 'kill-region)
@@ -69,3 +69,5 @@
                     :box nil)
 
 (setq ring-bell-function 'ignore)
+(linum-mode)
+
