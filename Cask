@@ -1,5 +1,6 @@
 (source melpa)
 
+(depends-on "ack-and-a-half")
 (depends-on "auto-complete")
 (depends-on "color-theme")
 (depends-on "grizzl")
