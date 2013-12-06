@@ -70,3 +70,4 @@
 
 (setq ring-bell-function 'ignore)
 (linum-mode)
+(auto-revert-mode)
