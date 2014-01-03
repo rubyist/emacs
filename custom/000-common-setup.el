@@ -62,8 +62,8 @@
 (add-to-list 'load-path "~/.emacs.d/vendor/emacs-powerline")
 (require 'powerline)
 
-(color-theme-initialize)
-(color-theme-charcoal-black)
+;(color-theme-initialize)
+;(color-theme-charcoal-black)
 (set-face-attribute 'mode-line nil
                     :background "#7FFFD5"
                     :box nil)

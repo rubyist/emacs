@@ -3,6 +3,7 @@
 (depends-on "ack-and-a-half")
 (depends-on "auto-complete")
 (depends-on "color-theme")
+(depends-on "dash-at-point")
 (depends-on "grizzl")
 (depends-on "magit")
 (depends-on "markdown-mode")
