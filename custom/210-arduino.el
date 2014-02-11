@@ -5,3 +5,5 @@
 (add-hook 'arduino-mode-hook '(lambda ()
                            (local-set-key (kbd "RET") 'newline-and-indent)))
 
+(add-hook 'arduino-mode-hook (lambda ()
+                          (linum-on)))
